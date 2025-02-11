@@ -16,18 +16,18 @@
         "Novelty": 5
     },
     {
-        "Name": "loyalty_tiered_rewards",
-        "Title": "Loyalty Tiered Rewards: Enhancing Customer Engagement Through Tailored Coupons",
-        "Experiment": "Modify the coupon generation function to assess customer loyalty based on frequency and recency of visits. Segment users into two categories: loyal customers and new/infrequent customers. Assign different coupon values accordingly. Implement a feedback mechanism to monitor coupon redemption rates and customer satisfaction. Simulate expected revenue and engagement from this strategy and compare against a uniform coupon distribution. Analyze results for ROI and customer retention metrics.",
-        "Interestingness": 8,
+        "Name": "seasonal_coupon_strategy",
+        "Title": "Seasonal Coupon Strategy: Leveraging Temporal Trends to Boost Revenue",
+        "Experiment": "Enhance the coupon generation process by analyzing historical dining patterns related to seasons and special occasions. Modify the 'generate_coupons' function to incorporate seasonal trends based on historical data, identifying key holidays and events that drive dining behavior. Segment customers based on their past responses to seasonal promotions and create tailored coupons for each segment. Evaluate the effectiveness of these targeted campaigns by comparing revenue and customer engagement metrics against a baseline of non-targeted coupons.",
+        "Interestingness": 9,
         "Feasibility": 8,
         "Novelty": 8
     },
     {
-        "Name": "dynamic_coupon_adjustment",
-        "Title": "Dynamic Coupon Adjustment: Tailoring Discounts Based on Recent Customer Visits",
-        "Experiment": "Modify the existing coupon generation function to include a real-time analysis of each user's recent visit frequency to restaurants. Adjust coupon amounts based on whether users have visited within the last week or month, creating higher-value coupons for more frequent visitors. Simulate the impact of this strategy against a static coupon allocation, focusing on engagement metrics and ROI.",
-        "Interestingness": 8,
+        "Name": "segmented_hybrid_coupon_strategy",
+        "Title": "Segmented Hybrid Coupon Strategy: Tailoring Offers Based on Customer Segmentation and Performance Metrics",
+        "Experiment": "Enhance the hybrid coupon allocation strategy by incorporating customer segmentation based on responsiveness and historical preferences. Modify the 'generate_coupons' function to generate tailored coupons for different segments, adjusting offers based on both customer engagement and restaurant performance metrics. Evaluate results by comparing revenue and engagement metrics from the segmented hybrid approach against a baseline of static coupon allocation.",
+        "Interestingness": 9,
         "Feasibility": 8,
         "Novelty": 8
     }

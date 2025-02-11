@@ -75,8 +75,7 @@ def generate_coupons(
         restaurant_df,
         client,
         client_model,
-        5,
-        0.1,
+        temperature=0.1,
         test_mode=False,
     )
     return coupon_df, results
