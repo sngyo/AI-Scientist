@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "personalized_discount_strategy",
+        "Title": "Personalized Discount Strategy: Optimizing Revenue with Individualized Coupons",
+        "Experiment": "Develop a personalized discount strategy by analyzing customer spending habits, preferred dining times, and group sizes. Assign different coupon amounts and discount rates to each customer based on their historical data, and simulate expected revenue. Compare results against a uniform discount approach to evaluate the improvement in ROI and total revenue.",
+        "Interestingness": 7,
+        "Feasibility": 8,
+        "Novelty": 6
+    },
+    {
+        "Name": "group_discount_targeting",
+        "Title": "Group Discount Targeting: Maximizing Revenue by Focusing on Large Groups",
+        "Experiment": "Focus on offering higher-value coupons to customers with a history of dining in groups (3 or more people). Analyze past revenue data for group dining and simulate how targeted group discounts impact revenue and ROI. Adjust the minimum spending threshold to optimize the balance between revenue growth and coupon usage costs.",
+        "Interestingness": 6,
+        "Feasibility": 7,
+        "Novelty": 5
+    },
+    {
+        "Name": "seasonal_coupon_strategy",
+        "Title": "Seasonal Coupon Strategy: Leveraging Temporal Trends to Boost Revenue",
+        "Experiment": "Enhance the coupon generation process by analyzing historical dining patterns related to seasons and special occasions. Modify the 'generate_coupons' function to incorporate seasonal trends based on historical data, identifying key holidays and events that drive dining behavior. Segment customers based on their past responses to seasonal promotions and create tailored coupons for each segment. Evaluate the effectiveness of these targeted campaigns by comparing revenue and customer engagement metrics against a baseline of non-targeted coupons.",
+        "Interestingness": 9,
+        "Feasibility": 8,
+        "Novelty": 8
+    },
+    {
+        "Name": "segmented_hybrid_coupon_strategy",
+        "Title": "Segmented Hybrid Coupon Strategy: Tailoring Offers Based on Customer Segmentation and Performance Metrics",
+        "Experiment": "Enhance the hybrid coupon allocation strategy by incorporating customer segmentation based on responsiveness and historical preferences. Modify the 'generate_coupons' function to generate tailored coupons for different segments, adjusting offers based on both customer engagement and restaurant performance metrics. Evaluate results by comparing revenue and engagement metrics from the segmented hybrid approach against a baseline of static coupon allocation.",
+        "Interestingness": 9,
+        "Feasibility": 8,
+        "Novelty": 8
+    }
+]
